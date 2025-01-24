@@ -107,7 +107,7 @@ Computes self-attention, which allows the model to learn dependencies between to
   `Dropout(drop_rate)`: Adds regularization to prevent overfitting.
   Another `Linear and Dropout` complete the MLP.
 
-# TEST 
+# Test 
 
 We will make our experiments on the well known [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html), The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
 ![cifar10](https://github.com/dimitri009/VIT_implementation/blob/main/img_VIT/cifar10.png?raw=true)
@@ -120,4 +120,18 @@ As this is just a showcase we will limit our architecture:
   
 Total Parameters: 847626
 
-# RESULTS
+# Results
+
+## With Adam as optimizer 
+Overall Test Accuracy: 66.84%
+![h](https://github.com/dimitri009/VIT_implementation/blob/main/img_VIT/1.png?raw=true)    ![h2](https://github.com/dimitri009/VIT_implementation/blob/main/img_VIT/plot2.png?raw=true)
+
+## With AdamW as optimizer
+Overall Test Accuracy: 67.46%
+![h1](https://github.com/dimitri009/VIT_implementation/blob/main/img_VIT/1W.png?raw=true)   ![h4](https://github.com/dimitri009/VIT_implementation/blob/main/img_VIT/plot3.png?raw=true)
+
+# Future Work
+Improve our architecture to enhance the accuracy.
+
+# Code
+The code can be find [here.](https://github.com/dimitri009/VIT_implementation/tree/main/VIT)
