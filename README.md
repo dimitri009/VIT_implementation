@@ -134,4 +134,4 @@ Overall Test Accuracy: 67.46%
 Improve our architecture to enhance the accuracy.
 
 # Code
-The code can be find [here.](https://github.com/dimitri009/VIT_implementation/tree/main/VIT)
+The code can be found [here.](https://github.com/dimitri009/VIT_implementation/tree/main/VIT)
