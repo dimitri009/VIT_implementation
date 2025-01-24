@@ -137,14 +137,14 @@ Some modifications to match the ViT-Base mentioned in the paper:
 
 ✅ Embedding Dimension:  to 768.
 
-✅ Number of Transformer Blocks (num_blocks): Set to 12.
+✅ Number of Transformer Blocks (num_blocks):  to 12.
 
-✅ MLP Size: Set to 3072.
+✅ MLP Size:  to 3072.
 
-✅ Attention Heads: Set to 12.
+✅ Attention Heads:  to 12.
 
-Total Parameters: 85222666.
+Total Parameters: **85.2M**.
  
-In the paper their VIT-Base has **86M**.
+In the paper their VIT-Base has **86M** parameters.
 # Code
 The code can be found [here.](https://github.com/dimitri009/VIT_implementation/tree/main/VIT)
