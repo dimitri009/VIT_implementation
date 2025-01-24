@@ -4,6 +4,10 @@ VIT implementation in PyTorch.
 
 [An image is worth 16x16 words: Transformers for image recognition at scale](https://arxiv.org/pdf/2010.11929) is a great paper and in this project we will try to explain and implement the architecture presented in the paper. 
 
+### Install requirements 
+
+`pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124` as decribed [here](https://pytorch.org/get-started/locally/)
+
 ## Patches 
 ![patc](https://github.com/dimitri009/VIT_implementations/blob/main/img_VIT/Patches.png?raw=true)
 
@@ -103,10 +107,17 @@ Computes self-attention, which allows the model to learn dependencies between to
   `Dropout(drop_rate)`: Adds regularization to prevent overfitting.
   Another `Linear and Dropout` complete the MLP.
 
-
 # TEST 
 
 We will make our experiments on the well known [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html), The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
 ![cifar10](https://github.com/dimitri009/VIT_implementation/blob/main/img_VIT/cifar10.png?raw=true)
+
+As this is just a showcase we will limit our architecture:
+
+* patch_size = 8
+* embedding_dim = 256
+* num_blocks = 2
+  
+Total Parameters: 847626
 
 # RESULTS
