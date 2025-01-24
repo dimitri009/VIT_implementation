@@ -133,5 +133,18 @@ Overall Test Accuracy: 67.46%
 # Future Work
 Improve our architecture to enhance the accuracy.
 
+Some modifications to match the ViT-Base mentioned in the paper:
+
+✅ Embedding Dimension:  to 768.
+
+✅ Number of Transformer Blocks (num_blocks): Set to 12.
+
+✅ MLP Size: Set to 3072.
+
+✅ Attention Heads: Set to 12.
+
+Total Parameters: 85222666.
+ 
+In the paper their VIT-Base has **86M**.
 # Code
 The code can be found [here.](https://github.com/dimitri009/VIT_implementation/tree/main/VIT)
