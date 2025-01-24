@@ -1,4 +1,4 @@
-# VIT_implementations
+# VIT_implementation
 VIT implementation in PyTorch.
 ![vit](https://github.com/dimitri009/VIT_implementations/blob/main/img_VIT/VIT.png?raw=true)
 
@@ -102,3 +102,11 @@ Computes self-attention, which allows the model to learn dependencies between to
   `GELU()`: Applies a GELU activation function, which is smoother than ReLU.
   `Dropout(drop_rate)`: Adds regularization to prevent overfitting.
   Another `Linear and Dropout` complete the MLP.
+
+
+# TEST 
+
+We will make our experiments on the well known [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html), The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
+![cifar10](https://github.com/dimitri009/VIT_implementation/blob/main/img_VIT/cifar10.png?raw=true)
+
+# RESULTS
